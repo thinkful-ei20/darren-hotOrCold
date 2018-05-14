@@ -3,7 +3,7 @@ import React from 'react';
 
 import GameGuess from './game-guess';
 import GuessResults from './guess-results';
-import GameHintHeader from './game-hint-header';
+import GuessHintHeader from './guess-hint-header';
 
 
 
@@ -14,14 +14,13 @@ return(
     <h1>HOT or COLD</h1>
     
     <div className='gameBoard'>
+      <GuessHintHeader />
 
-      <GameHintHeader />
+      <GameGuess />     
 
-      <GameGuess />
-      
       <GuessResults />
-
     </div>
+
   </div>
 );
 

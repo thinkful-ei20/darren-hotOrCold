@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from './header/header';
-import Game from './game';
+import Game from './game/game';
 
 
 export default function MainContainer() {
